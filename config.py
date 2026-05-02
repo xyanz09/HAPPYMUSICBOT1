@@ -17,8 +17,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://HAPPYMUSICBOT1:789136@aA@cluster0.5nlqod2.mongodb.net/?appName=Cluster0")
 
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , "AIzaSyAKncwEp-SFWPdwnb24TJLrIL3HIXrwEf4" ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgmusic.fallenapi.fun') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , "47ce44_QiplD3zwGCELuOJ4BA8Xh1XvXfxm4ug1" ) ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 ## Other vaes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
